@@ -140,31 +140,3 @@ success_msg("Great work!")
 
 
 
-
----
-## Insert exercise title here
-
-```yaml
-type: NormalExercise
-
-xp: 
-
-key: 3014cc7bf7
-```
-
-demo normal
-
-`@instructions`
-
-
-`@hint`
-
-
-
-
-
-
-
-
-
-

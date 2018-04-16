@@ -89,3 +89,37 @@ this is a hint
 
 
 
+
+---
+## Insert exercise title here
+
+```yaml
+type: PureMultipleChoiceExercise
+
+xp: 
+
+key: 86fb1ec231
+```
+
+pure mce
+
+
+`@hint`
+hint
+
+
+
+
+
+`@possible_answers`
+- one
+- two
+- [three]
+
+`@feedbacks`
+- no
+- no
+- yes
+
+
+

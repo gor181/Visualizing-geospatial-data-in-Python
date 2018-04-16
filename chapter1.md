@@ -1,8 +1,8 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
-attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+title: Insert the chapter title here
+description: >-
+  Insert the chapter description here
+
 
 ---
 ## A really bad movie
@@ -40,6 +40,7 @@ plt.scatter(movies.runtime, movies.rating)
 plt.show()
 ```
 
+
 `@sct`
 ```{python}
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
@@ -48,6 +49,10 @@ msg_bad = "That is not correct!"
 msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
+
+
+
+
 
 ---
 ## Plot the movies yourself
@@ -83,7 +88,6 @@ movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introdu
 
 import numpy as np
 ```
-
 `@sample_code`
 ```{python}
 # Get integer values for genres
@@ -96,9 +100,7 @@ _, ints = np.unique(movies.genre, return_inverse = True)
 
 
 # Show the plot
-
 ```
-
 `@solution`
 ```{python}
 # Get integer values for genres
@@ -113,7 +115,6 @@ plt.scatter(movies.runtime, movies.rating, c=ints)
 # Show the plot
 plt.show()
 ```
-
 `@sct`
 ```{python}
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
@@ -135,3 +136,35 @@ test_function("matplotlib.pyplot.show")
 
 success_msg("Great work!")
 ```
+
+
+
+
+
+---
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+
+xp: 
+
+key: 3014cc7bf7
+```
+
+demo normal
+
+`@instructions`
+
+
+`@hint`
+
+
+
+
+
+
+
+
+
+
